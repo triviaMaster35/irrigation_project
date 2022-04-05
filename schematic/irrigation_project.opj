@@ -1,0 +1,88 @@
+(ExpressProject "irrigation_project"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\library1.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\irrigation_project.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (DHT20
+      (FullPartName "DHT20.Normal")
+      (LibraryName
+         "\\FSERV\HOME\JB7008\DESKTOP\IRRIGATION_PROJECT\SCHEMATIC\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    ("Moisture Sensor"
+      (FullPartName "Moisture Sensor.Normal")
+      (LibraryName
+         "\\FSERV\HOME\JB7008\DESKTOP\IRRIGATION_PROJECT\SCHEMATIC\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (Solenoid
+      (FullPartName "Solenoid.Normal")
+      (LibraryName
+         "\\FSERV\HOME\JB7008\DESKTOP\IRRIGATION_PROJECT\SCHEMATIC\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (SD_Card
+      (FullPartName "SD_Card.Normal")
+      (LibraryName
+         "\\FSERV\HOME\JB7008\DESKTOP\IRRIGATION_PROJECT\SCHEMATIC\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (VCC_BAR
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (ATMEGA168-20PU
+      (FullPartName "ATMEGA168-20PU.Normal")
+      (LibraryName
+         "\\FSERV\HOME\JB7008\DESKTOP\IRRIGATION_PROJECT\SCHEMATIC\LIBRARY1.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\irrigation_project.dsn")
+      (Path "Design Resources" ".\irrigation_project.dsn" "SCHEMATIC1")
+      (Path "Design Resources" ".\irrigation_project.dsn" "Design Cache")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library"
+         "\\fserv\home\jb7008\desktop\irrigation_project\schematic\library1.olb")
+      (Select "Design Resources" "Library"
+         "\\fserv\home\jb7008\desktop\irrigation_project\schematic\library1.olb"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 420"))
+      (Tab 0))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 52 1424 52 511"))
+      (Path
+         "\\FSERV\HOME\JB7008\DESKTOP\IRRIGATION_PROJECT\SCHEMATIC\LIBRARY1.OLB")
+      (Package "MOISTURE SENSOR")
+      (PartType "1"))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 104 1476 104 563"))
+      (Path
+         "\\FSERV\HOME\JB7008\DESKTOP\IRRIGATION_PROJECT\SCHEMATIC\LIBRARY1.OLB")
+      (Package "DHT20")
+      (PartType "1"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 52 1717 52 511")
+        (Scroll "-289 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "\\FSERV\HOME\JB7008\DESKTOP\IRRIGATION_PROJECT\SCHEMATIC\IRRIGATION_PROJECT.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
+  (MPSSessionName "jb7008"))
