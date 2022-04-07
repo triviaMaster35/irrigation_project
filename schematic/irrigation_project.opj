@@ -13,6 +13,48 @@
   (Folder "Outputs")
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (MBR7545
+      (FullPartName "MBR7545.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\DIODE.OLB")
+      (DeviceIndex "0"))
+    (MbreakN3
+      (FullPartName "MbreakN3.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0"))
+    (MbreakN
+      (FullPartName "MbreakN.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0"))
+    (QbreakN
+      (FullPartName "QbreakN.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0"))
+    (TIp120
+      (FullPartName "TIp120.Normal")
+      (LibraryName
+         "\\FSERV\HOME\JB7008\DESKTOP\IRRIGATION_PROJECT\SCHEMATIC\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (Clock
+      (FullPartName "Clock.Normal")
+      (LibraryName
+         "\\FSERV\HOME\JB7008\DESKTOP\IRRIGATION_PROJECT\SCHEMATIC\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
     (DHT20
       (FullPartName "DHT20.Normal")
       (LibraryName
@@ -48,41 +90,14 @@
       (Path "Design Resources" ".\irrigation_project.dsn" "SCHEMATIC1")
       (Path "Design Resources" ".\irrigation_project.dsn" "Design Cache")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library"
-         "\\fserv\home\jb7008\desktop\irrigation_project\schematic\library1.olb")
-      (Select "Design Resources" "Library"
-         "\\fserv\home\jb7008\desktop\irrigation_project\schematic\library1.olb"))
+      (Path "Design Resources" "Library" ".\library1.olb")
+      (Select "Design Resources" "Library" ".\library1.olb" "TIp120"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 420"))
-      (Tab 0))
-    (Doc
-      (Type "COrPrmBrowserDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 52 1424 52 511"))
-      (Path
-         "\\FSERV\HOME\JB7008\DESKTOP\IRRIGATION_PROJECT\SCHEMATIC\LIBRARY1.OLB")
-      (Package "MOISTURE SENSOR")
-      (PartType "1"))
-    (Doc
-      (Type "COrPrmBrowserDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 104 1476 104 563"))
-      (Path
-         "\\FSERV\HOME\JB7008\DESKTOP\IRRIGATION_PROJECT\SCHEMATIC\LIBRARY1.OLB")
-      (Package "DHT20")
-      (PartType "1"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 52 1717 52 511")
-        (Scroll "-289 0")
-        (Zoom "100")
-        (Occurrence "/"))
-      (Path
-         "\\FSERV\HOME\JB7008\DESKTOP\IRRIGATION_PROJECT\SCHEMATIC\IRRIGATION_PROJECT.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "PAGE1")))
-  (MPSSessionName "jb7008"))
+        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 420"))
+      (Tab 0)))
+  (MPSSessionName "jb7008")
+  (LastUsedLibraryBrowseDirectory
+     "C:\Cadence\SPB_17.2\tools\capture\library\pspice"))
