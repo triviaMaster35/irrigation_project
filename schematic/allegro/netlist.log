@@ -1,0 +1,9 @@
+{ Using PSTWRITER 17.2.0 d001Apr-07-2022 at 18:20:12 }
+
+#1 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance DHT1: SCHEMATIC1, PAGE1 (6.60, 1.80).
+#2 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance MS1: SCHEMATIC1, PAGE1 (6.50, 2.50).
+#3 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance S1: SCHEMATIC1, PAGE1 (6.60, 4.10).
+#4 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance MCU1: SCHEMATIC1, PAGE1 (2.20, 1.20).
+#5 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance CLK2: SCHEMATIC1, PAGE1 (0.40, 1.90).
+#6 ERROR(ORCAP-36041): Duplicate Pin Name "GND" found on Package ATMEGA168-20PU , MCU1 Pin Number 7: SCHEMATIC1, PAGE1 (2.20, 1.20). Please renumber one of these.
+#7 ERROR(ORCAP-36018): Aborting Netlisting... Please correct the above errors and retry.
