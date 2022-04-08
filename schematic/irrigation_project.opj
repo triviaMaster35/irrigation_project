@@ -3,11 +3,18 @@
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
-      (File ".\library1.olb"
-        (Type "Schematic Library")))
+      (File ".\library2.olb"
+        (Type "Schematic Library")
+        (DisplayName ".\library2.olb"))
+      (File
+         "..\desktop\irrigation_project\desktop\irrigation_project\schematic\pcb_footprints\ul_2-pin_header\orcadcapturexml\library1.olb"
+        (Type "Schematic Library")
+        (DisplayName
+           "..\desktop\irrigation_project\desktop\irrigation_project\schematic\pcb_footprints\ul_2-pin_header\orcadcapturexml\library1.olb")))
     (NoModify)
     (File ".\irrigation_project.dsn"
-      (Type "Schematic Design"))
+      (Type "Schematic Design")
+      (DisplayName ".\irrigation_project.dsn"))
     (BuildFileAddedOrDeleted "x")
     (CompileFileAddedOrDeleted "x")
     (Netlist_TAB "0")
@@ -29,6 +36,21 @@
   (Folder "Outputs")
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (LVR
+      (FullPartName "LVR.Normal")
+      (LibraryName
+         "\\FSERV\HOME\JB7008\DESKTOP\IRRIGATION_PROJECT\SCHEMATIC\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (2-pin_header
+      (FullPartName "2-pin_header.Normal")
+      (LibraryName
+         "\\FSERV\HOME\JB7008\DESKTOP\IRRIGATION_PROJECT\SCHEMATIC\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (2N7002WT1G
+      (FullPartName "2N7002WT1G.Normal")
+      (LibraryName
+         "\\FSERV\HOME\JB7008\DESKTOP\IRRIGATION_PROJECT\SCHEMATIC\LIBRARY1.OLB")
+      (DeviceIndex "0"))
     (ATMEGA328-PU
       (FullPartName "ATMEGA328-PU.Normal")
       (LibraryName
@@ -111,34 +133,14 @@
       (Path "Design Resources" ".\irrigation_project.dsn" "SCHEMATIC1")
       (Path "Design Resources" ".\irrigation_project.dsn" "Design Cache")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library" ".\library1.olb")
-      (Select "Design Resources" ".\irrigation_project.dsn" "SCHEMATIC1"
-         "PAGE1"))
+      (Path "Design Resources" "Library" ".\library2.olb")
+      (Select "Design Resources" "Library" ".\library2.olb"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 420"))
-      (Tab 0))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 130 1873 130 430")
-        (Scroll "0 91")
-        (Zoom "110")
-        (Occurrence "/"))
-      (Path
-         "\\FSERV\HOME\JB7008\DESKTOP\IRRIGATION_PROJECT\SCHEMATIC\IRRIGATION_PROJECT.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "PAGE1"))
-    (Doc
-      (Type "COrPrmBrowserDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 0 1450 0 300"))
-      (Path
-         "\\FSERV\HOME\JB7008\DESKTOP\IRRIGATION_PROJECT\SCHEMATIC\LIBRARY1.OLB")
-      (Package "ATMEGA328-PU")
-      (PartType "1")))
+        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 420"))
+      (Tab 0)))
   (MPSSessionName "jb7008")
   (LastUsedLibraryBrowseDirectory
      "C:\Cadence\SPB_17.2\tools\capture\library\pspice")

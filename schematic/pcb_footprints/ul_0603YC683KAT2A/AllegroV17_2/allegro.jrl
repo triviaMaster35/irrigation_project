@@ -1,0 +1,160 @@
+\t (00:00:02) allegro 17.2 S042 Windows SPB 64-bit Edition
+\t (00:00:02)     Journal start - Fri Apr 08 11:34:12 2022
+\t (00:00:02)         Host=MCT163S08 User=jb7008 Pid=14024 CPUs=16
+\t (00:00:02) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe -s builder.scr.txt
+\t (00:00:02) 
+   (00:00:02) Loading axlcore.cxt 
+\t (00:00:03) Starting new design...
+\i (00:00:03) trapsize 29310
+\i (00:00:03) replay builder.scr.txt 
+\i (00:00:03) skill 'load "Y:/jb7008/Desktop/irrigation_project/schematic/pcb_footprints/ul_0603YC683KAT2A/AllegroV17_2/builder.ile" ' 
+   (00:00:03) t
+\i (00:00:03) skill 'changeWorkingDir "Y:/jb7008/Desktop/irrigation_project/schematic/pcb_footprints/ul_0603YC683KAT2A/AllegroV17_2" ' 
+   (00:00:03) t
+\i (00:00:03) skill 'LB_createFootprint "Y:/jb7008/Desktop/irrigation_project/schematic/pcb_footprints/ul_0603YC683KAT2A/AllegroV17_2/0603_AVX-L.xml" ' 
+\t (00:00:03) Reading Footprint XML
+\t (00:00:03) Creating padstacks
+\t (00:00:04) Starting new design...
+\i (00:00:04) trapsize 817
+\i (00:00:04) trapsize 840
+\i (00:00:04) trapsize 848
+\i (00:00:04) trapsize 1168
+\i (00:00:04) trapsize 1115
+\i (00:00:04) trapsize 1115
+\i (00:00:04) trapsize 111549
+\t (00:00:04) Performing DRC...
+\t (00:00:04) Multithreaded DRC update (16 threads).
+\t (00:00:04) No DRC errors detected.
+\t (00:00:04) Opening Design "0603_AVX-L.dra"
+\t (00:00:04) Starting new design...
+\i (00:00:04) trapsize 81712
+\i (00:00:04) trapsize 84000
+\i (00:00:04) trapsize 81712
+\i (00:00:04) trapsize 116758
+\i (00:00:04) trapsize 116758
+\i (00:00:04) trapsize 111549
+\i (00:00:04) trapsize 26572
+\t (00:00:04) Creating TextBlocks
+\t (00:00:04) Creating Shapes on Package layers
+\t (00:00:04) Creating Pins
+\t (00:00:04) Creating Vias
+\t (00:00:04) Creating package symbol 'Y:/jb7008/Desktop/irrigation_project/schematic/pcb_footprints/ul_0603YC683KAT2A/AllegroV17_2/0603_avx-l.psm'.
+\t (00:00:04) Starting Create symbol...
+\t (00:00:05) Symbol Created
+\i (00:00:05) trapsize 582
+   (00:00:05) Loading cmds.cxt 
+   (00:00:05) Loading skillExt.cxt 
+\t (00:00:05) Opening existing design...
+\i (00:00:05) trapsize 582
+\i (00:00:05) trapsize 598
+\i (00:00:05) trapsize 582
+\i (00:00:05) trapsize 609
+\d (00:00:05) Design opened: Y:/jb7008/Desktop/irrigation_project/schematic/pcb_footprints/ul_0603YC683KAT2A/AllegroV17_2/0603_AVX-L.dra
+\t (00:00:05) Symbol Saved
+   (00:00:05) t
+\i (00:00:05) scriptmode +i +n 
+\i (00:00:05) step pkg map 
+\i (00:00:05) setwindow form.pkgmap3d 
+\i (00:00:05) FORM pkgmap3d stplist 0603_AVX.step 
+\i (00:00:05) FORM pkgmap3d rotation_x 0 
+\i (00:00:05) FORM pkgmap3d save_current 
+\i (00:00:05) FORM pkgmap3d done 
+\i (00:00:05) setwindow pcb 
+\i (00:00:05) save 
+\i (00:00:05) fillin yes 
+\t (00:00:06) Symbol '0603_avx-l.psm' created.
+\i (00:00:06) skill 'LB_createFootprint "Y:/jb7008/Desktop/irrigation_project/schematic/pcb_footprints/ul_0603YC683KAT2A/AllegroV17_2/0603_AVX-M.xml" ' 
+\t (00:00:06) Reading Footprint XML
+\t (00:00:06) Creating padstacks
+\t (00:00:06) Starting new design...
+\i (00:00:06) trapsize 15339
+\i (00:00:06) trapsize 15768
+\i (00:00:06) trapsize 15339
+\i (00:00:06) trapsize 27812
+\i (00:00:06) trapsize 27812
+\i (00:00:06) trapsize 26572
+\t (00:00:06) Opening Design "0603_AVX-M.dra"
+\t (00:00:06) Starting new design...
+\i (00:00:06) trapsize 15339
+\i (00:00:06) trapsize 15768
+\i (00:00:07) trapsize 15339
+\i (00:00:07) trapsize 27812
+\i (00:00:07) trapsize 27812
+\i (00:00:07) trapsize 26572
+\i (00:00:07) trapsize 26795
+\t (00:00:07) Creating TextBlocks
+\t (00:00:07) Creating Shapes on Package layers
+\t (00:00:07) Creating Pins
+\t (00:00:07) Creating Vias
+\t (00:00:07) Creating package symbol 'Y:/jb7008/Desktop/irrigation_project/schematic/pcb_footprints/ul_0603YC683KAT2A/AllegroV17_2/0603_avx-m.psm'.
+\t (00:00:07) Starting Create symbol...
+\t (00:00:07) Symbol Created
+\i (00:00:07) trapsize 669
+\t (00:00:07) Opening existing design...
+\i (00:00:07) trapsize 669
+\i (00:00:07) trapsize 688
+\i (00:00:07) trapsize 669
+\i (00:00:07) trapsize 701
+\d (00:00:07) Design opened: Y:/jb7008/Desktop/irrigation_project/schematic/pcb_footprints/ul_0603YC683KAT2A/AllegroV17_2/0603_AVX-M.dra
+\t (00:00:07) Symbol Saved
+   (00:00:07) t
+\i (00:00:07) scriptmode +i +n 
+\i (00:00:07) step pkg map 
+\i (00:00:08) setwindow form.pkgmap3d 
+\i (00:00:08) FORM pkgmap3d stplist 0603_AVX.step 
+\i (00:00:08) FORM pkgmap3d rotation_x 0 
+\i (00:00:08) FORM pkgmap3d save_current 
+\i (00:00:08) FORM pkgmap3d done 
+\i (00:00:08) setwindow pcb 
+\i (00:00:08) save 
+\i (00:00:08) fillin yes 
+\t (00:00:08) Symbol '0603_avx-m.psm' created.
+\i (00:00:08) skill 'LB_createFootprint "Y:/jb7008/Desktop/irrigation_project/schematic/pcb_footprints/ul_0603YC683KAT2A/AllegroV17_2/0603_AVX.xml" ' 
+\t (00:00:08) Reading Footprint XML
+\t (00:00:08) Creating padstacks
+\t (00:00:08) Starting new design...
+\i (00:00:08) trapsize 15339
+\i (00:00:08) trapsize 15768
+\i (00:00:08) trapsize 15339
+\i (00:00:08) trapsize 28046
+\i (00:00:08) trapsize 28046
+\i (00:00:08) trapsize 26795
+\t (00:00:09) Opening Design "0603_AVX.dra"
+\t (00:00:09) Starting new design...
+\i (00:00:09) trapsize 15339
+\i (00:00:09) trapsize 15768
+\i (00:00:09) trapsize 15339
+\i (00:00:09) trapsize 28046
+\i (00:00:09) trapsize 28046
+\i (00:00:09) trapsize 26795
+\i (00:00:09) trapsize 26670
+\t (00:00:09) Creating TextBlocks
+\t (00:00:09) Creating Shapes on Package layers
+\e (00:00:09) ERROR(SPMHDB-69): Incomplete arc segment data.
+\t (00:00:09) Creating Pins
+\t (00:00:09) Creating Vias
+\t (00:00:09) Creating package symbol 'Y:/jb7008/Desktop/irrigation_project/schematic/pcb_footprints/ul_0603YC683KAT2A/AllegroV17_2/0603_avx.psm'.
+\t (00:00:09) Starting Create symbol...
+\t (00:00:09) Symbol Created
+\i (00:00:09) trapsize 545
+\t (00:00:09) Opening existing design...
+\i (00:00:09) trapsize 545
+\i (00:00:09) trapsize 560
+\i (00:00:10) trapsize 545
+\i (00:00:10) trapsize 570
+\d (00:00:10) Design opened: Y:/jb7008/Desktop/irrigation_project/schematic/pcb_footprints/ul_0603YC683KAT2A/AllegroV17_2/0603_AVX.dra
+\t (00:00:10) Symbol Saved
+   (00:00:10) t
+\i (00:00:10) scriptmode +i +n 
+\i (00:00:10) step pkg map 
+\i (00:00:10) setwindow form.pkgmap3d 
+\i (00:00:10) FORM pkgmap3d stplist 0603_AVX.step 
+\i (00:00:10) FORM pkgmap3d rotation_x 0 
+\i (00:00:10) FORM pkgmap3d save_current 
+\i (00:00:10) FORM pkgmap3d done 
+\i (00:00:10) setwindow pcb 
+\i (00:00:10) save 
+\i (00:00:10) fillin yes 
+\t (00:00:10) Symbol '0603_avx.psm' created.
+\i (00:00:10) exit 
+\t (00:00:11)     Journal end - Fri Apr 08 11:34:20 2022
