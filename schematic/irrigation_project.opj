@@ -36,6 +36,10 @@
   (Folder "Outputs")
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (HC-05
+      (FullPartName "HC-05.Normal")
+      (LibraryName "D:\IRRIGATION_PROJECT\SCHEMATIC\LIBRARY2.OLB")
+      (DeviceIndex "0"))
     (LVR
       (FullPartName "LVR.Normal")
       (LibraryName
@@ -139,8 +143,18 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 420"))
-      (Tab 0)))
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 420"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 78 1743 78 537")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "D:\IRRIGATION_PROJECT\SCHEMATIC\IRRIGATION_PROJECT.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
   (MPSSessionName "jb7008")
   (LastUsedLibraryBrowseDirectory
      "C:\Cadence\SPB_17.2\tools\capture\library\pspice")
